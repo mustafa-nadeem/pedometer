@@ -28,7 +28,9 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Pedometer'),
+      appBar: AppBar(
+        backgroundColor: Colors.lightBlue,
+        title: Text('Pedometer'),
       ),
     );
   }
